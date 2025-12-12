@@ -42,10 +42,10 @@ const CONFIG = {
     candyColors: ['#FF0000', '#FFFFFF']
   },
   counts: {
-    foliage: 15000,
+    foliage: 800,
     ornaments: 300,   // 拍立得照片数量
     elements: 200,    // 圣诞元素数量
-    lights: 400       // 彩灯数量
+    lights: 300       // 彩灯数量
   },
   tree: { height: 22, radius: 9 }, // 树体尺寸
   photos: {
