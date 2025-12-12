@@ -414,10 +414,10 @@ const Experience = ({ sceneState, rotationSpeed }: { sceneState: 'CHAOS' | 'FORM
         <Sparkles count={600} scale={50} size={8} speed={0.4} opacity={0.4} color={CONFIG.colors.silver} />
       </group>
 
-      <EffectComposer>
+      {/*<EffectComposer>
         <Bloom luminanceThreshold={0.8} luminanceSmoothing={0.1} intensity={1.5} radius={0.5} mipmapBlur />
         <Vignette eskil={false} offset={0.1} darkness={1.2} />
-      </EffectComposer>
+      </EffectComposer>*/}
     </>
   );
 };
